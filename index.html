@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+    <title>Web Page</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./index.html" class="logo">Industry Partners</a>
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <ul class="list-item">
+            <li><img src="./image/logo2.png" width="149.64px" height="46.07px" alt="logo2"></li>
+            <li><img src="./image/logo1.png" width="150px" height="45.07px" alt="logo1"></li>
+            <li><button>Current Dealers login</button></li>
+        </ul>
+    </nav>
+
+    <header class="head">
+        <h1>Welcome to the Future of Boat and RV Financing</h1>
+        <p>Revolutionize Your Dealership with Our Innovative Dealer and Customer Finance Portal</p>
+        <button>Contact Us</button>
+    </header>
+
+    <section class="blog-section">
+        <div class="separator"></div>
+        <div class="blog-content">
+            <h2>Discover a Seamless Financing Experience for Dealers and Customers Alike</h2>
+            <p>Our cutting-edge Dealer and Customer Finance Portal is here to transform how you manage loans, making the process more straightforward and hassle-free than ever before.</p>
+        </div>
+        <div class="blog-image">
+            <img src="./image/boat.jpg" alt="Blog Image" />
+        </div>
+    </section>
+
+    <div class="center">
+        <hr>Key Features<hr>
+    </div>
+
+    <div class="container">
+        <div class="icon">
+            <i class="fas fa-globe blue"></i>
+            <h1>Access to a Nationwide Network of Recreational Lenders</h1>
+            <p>Secure the best rates and terms for your customers quickly and efficiently.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-lock pink"></i>
+            <h1>Secure Document Upload</h1>
+            <p>Keep your transactions safe with our state-of-the-art security measures.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-money-bill yellow"></i>
+            <h1>Maximize Profits</h1>
+            <p>Enhance your profitability while maintaining customer satisfaction.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-bell blue"></i>
+            <h1>Real-Time Updates</h1>
+            <p>Stay informed about the status of your customers' loans with continuous updates.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-sliders-h yellow"></i>
+            <h1>Unprecedented Control</h1>
+            <p>Manage your deals confidently, knowing our system acts as an extension of your team.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-shield-alt blue"></i>
+            <h1>Extended Warranties & Protection Plans</h1>
+            <p>Easily access extended warranties and quote protection plans accurately.</p>
+        </div>
+        <div class="icon">
+            <i class="fas fa-chart-line pink"></i>
+            <h1>Powerful Dashboards</h1>
+            <p>Track your sales and finance performance with comprehensive dashboards.</p>
+        </div>
+    </div>
+    
+
+    <button class="center-btn">Contact Us</button>
+
+    <section class="blog-section">
+        <div class="blog-image">
+            <img src="./image/boat.jpg" alt="Blog Image" />
+        </div>
+        <div class="separator"></div>
+        <div class="blog-content">
+            <h2>Discover a Seamless Financing Experience for Dealers and Customers Alike</h2>
+            <p>Our cutting-edge Dealer and Customer Finance Portal is here to transform how you manage loans, making the process more straightforward and hassle-free than ever before.</p>
+        </div>
+    </section>
+    <section class="blog-section">
+        
+        <div class="separator"></div>
+        <div class="blog-content">
+            <h2>Discover a Seamless Financing Experience for Dealers and Customers Alike</h2>
+            <p>Our cutting-edge Dealer and Customer Finance Portal is here to transform how you manage loans, making the process more straightforward and hassle-free than ever before.</p>
+        </div>
+        <div class="blog-image">
+            <img src="./image/boat.jpg" alt="Blog Image" />
+        </div>
+    </section>
+    <form action="#" method="get" class="form">
+        <h3>Contact Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, doloremque.</p>
+        <div class="input">
+            <input type="text" id="First-name" name="first-name" placeholder="First name" required>
+            <input type="text" id="Last-name" name="last-name" placeholder="Last name" required>
+            <input type="email" id="E-mail" name="email" placeholder="Email" required>
+            <input type="number" id="phone-number" name="phone-number" placeholder="Phone" required>
+            <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+            <button class="btn1">Submit</button>
+        </div>
+    </form>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <span>&copy; 2024 Industry Partners. All rights reserved.</span>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector(".list-item");
+            navbar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
